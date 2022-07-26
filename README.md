@@ -23,30 +23,32 @@ June 2022
 
 Screen%20Shot%202022-06-24%20at%205.13.37%20PM.png
 
-Merged Data File
-Joined Housing and Graduation Rate data on Zip Code\ Dataframe: df_housing_wgrade\ N =21,597
+### Merged Data File
+- Joined Housing and Graduation Rate data on Zip Code 
+- Dataframe: df_housing_wgrade - N =21,597
 
-Prepare for Regression Model
-Variables selected for analysis:
-Target
-- Sales Price 
-Predictors
+## Prepare for Regression Model
+### Variables selected for analysis:
+**Target:** Sales Price 
+**Predictors:**
 - Graduation Rate
 - SQFT
 - Zipcode
 - Grade
 - Condition
-Ordinal variables ranked:
+
+**Ordinal variables ranked:
 - Grade
 - Condition
-Categorical variables encoded
+**Categorical variables encoded
 - Zipcode
-Numeric variables scaled
+**Numeric variables scaled
 - SQFT
 
-Output of Model
-The output of the model on the Training dataset showed an R2 of .86. When run on the Test dataset, the R2\ was also .86.\
-Graduation rate had the largest coefficient among the independent variables. \
-Following iterations of the model include:
+## Output of Model
+ - The output of the model on the Train dataset showed an R squared of .86. When run on the Test dataset, the R squared was also .86.
+ - Graduation rate had the largest coefficient among all of the predictive variables. 
+
+### Subsequent iterations of the model will include:
 - Running a simple linear regression with graduation rate as the only predictor
 - Identify zip codes for which graduation rate has the highest interaction in terms of prediction
