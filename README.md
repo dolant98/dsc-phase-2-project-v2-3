@@ -22,7 +22,7 @@ June 2022
 - Public schools in King County
 
 ### Method of Analysis
-Screen%20Shot%202022-06-24%20at%205.13.37%20PM.png
+<img width="904" alt="Screen Shot 2022-07-26 at 10 05 58 AM" src="https://user-images.githubusercontent.com/100314469/181028925-6f15161e-f4af-4825-b9e1-9563d508846a.png">
 
 ### Merged Data File
 - Joined Housing and Graduation Rate data on Zip Code 
@@ -30,7 +30,9 @@ Screen%20Shot%202022-06-24%20at%205.13.37%20PM.png
 
 ## Prepare for Regression Model
 ### Variables selected for analysis:
+
 **Target:** Sales Price 
+
 **Predictors:**
 - Graduation Rate
 - SQFT
@@ -38,11 +40,14 @@ Screen%20Shot%202022-06-24%20at%205.13.37%20PM.png
 - Grade
 - Condition
 
+
 **Ordinal variables ranked:
 - Grade
 - Condition
+
 **Categorical variables encoded
 - Zipcode
+
 **Numeric variables scaled
 - SQFT
 
