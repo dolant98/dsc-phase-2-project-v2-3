@@ -21,6 +21,7 @@ June 2022
 - 4 year completion of high school
 - Public schools in King County
 
+### Method of Analysis
 Screen%20Shot%202022-06-24%20at%205.13.37%20PM.png
 
 ### Merged Data File
