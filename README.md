@@ -17,7 +17,7 @@ June 2022
 - 2014 Home Sales based on King County Dataset 
 - 2014/15 Academic Year
 
-### Graduation Rate based on:
+### Graduation Rate based on
 - 4 year completion of high school
 - Public schools in King County
 
@@ -41,14 +41,14 @@ June 2022
 - Condition
 
 
-**Ordinal variables ranked:
+**Ordinal variables ranked:**
 - Grade
 - Condition
 
-**Categorical variables encoded
+**Categorical variables encoded:**
 - Zipcode
 
-**Numeric variables scaled
+**Numeric variables scaled:**
 - SQFT
 
 ## Output of Model
